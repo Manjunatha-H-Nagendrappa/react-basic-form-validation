@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 500px;
+  padding: 25px;
+  padding-top: 30px;
+  background: rgb(206, 223, 255);
+  margin: 50px auto 0;
+  border-radius: 5px;
+  box-shadow: 3px 6px 40px rgb(138, 136, 136);
+}
+
+input,
+select {
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+.button {
+  color: white;
+  background-color: #6185fb;
+}
+
+.error {
+  color: red;
+}
+
+.item {
+  padding: 10px;
+}
